@@ -1,5 +1,4 @@
 const slide = document.querySelector('.cover1');
-const img = document.querySelectorAll(' .cover1 .img1');
 //const text = document.querySelectorAll('.h1');
 const prevBtn = document.getElementById('btn1');
 const nextBtn = document.getElementById('btn2');
@@ -16,22 +15,6 @@ setInterval(function () {
   }
   phot.src = arryImg[status];
 }, 5000);
-
-prevBtn.addEventListener('click', function () {
-  index--;
-  if (index < 0) {
-    index = img.length - 1;
-  }
-  slide.style.transform = "translateX(" + -index * 100 + "%)";
-
-});
-nextBtn.addEventListener('click', function () {
-  index++;
-  if (index > img.length - 1) {
-    index = 0;
-  }
-  slide.style.transform = "translateX(" + -index * 100 + "%)";
-});
 
 
 const mainContainer = document.querySelector(".main-section");

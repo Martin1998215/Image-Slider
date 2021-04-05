@@ -10,11 +10,10 @@ body {
  width: 100%;  
 }
 .all {
-    width: 98%;
-    margin: 10px 1%;
+    width: 90%;
+    margin: 10px 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .line {
     border: 0.3px solid lightgray;
@@ -28,7 +27,7 @@ body {
     border: 1px solid gray;
     padding: 5px;
    margin: 10px 0;
-    width: 35%;
+    width: 100%;
 }
 .left-head {
     width: 100%;
@@ -96,11 +95,11 @@ overflow: hidden;
 #btn2:hover {
     color: red;
 }
-.img1, .img {
- width: 99%;
+ .img {
+ width: 96%;
  height: 180px;
  object-fit: center;
-margin: 10px 0.5%;
+margin: 10px 2%;
 /* border: 0.5px solid lightgray; */
 }
 

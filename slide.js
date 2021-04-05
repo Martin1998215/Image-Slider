@@ -13,7 +13,6 @@ setInterval(function () {
   status++;
   if (status > arryImg.length - 1) {
     status = 0;
-    console.log(arryImg[status])
   }
   phot.src = arryImg[status];
 }, 5000);

@@ -6,7 +6,7 @@ const nextBtn = document.getElementById('btn2');
 const phot = document.querySelector(".img");
 
 let index = 0;
-const arryImg = ["s4.png", "s6.png", "s16.png"];
+const arryImg = ["rest6.jpeg", "rest3.jpeg", "rest1.jpeg", "rest2.jpeg"];
 let status = 0;
 
 setInterval(function () {

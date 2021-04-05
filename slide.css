@@ -61,7 +61,7 @@ margin: 10px 0;
 /* width: 700px;
 height: 540px; */
 width: 100%;
-height: 200px;
+height: 210px;
 overflow: hidden;  
 }
 .cover1 {
@@ -69,7 +69,7 @@ overflow: hidden;
  transition: transform 0.5s linear;   
  transform: translateX(0); 
  width: 100%;
- height: 200px;
+ height: 210px;
  /* border: 0.2px solid lightgray;      */
 }
 
@@ -104,8 +104,6 @@ margin: 10px 0.5%;
 /* border: 0.5px solid lightgray; */
 }
 
-
-
 .outter-container {
     width: 100%;
     display: flex;
@@ -138,7 +136,7 @@ margin: 10px 0.5%;
     margin: 10px 0px 3px 10px;
     transition: transform 0.6s linear;
     transform: translateX(0);
-    height: 280px;
+    height: 290px;
     width: 100%;
   }
   .check {
@@ -152,7 +150,7 @@ margin: 10px 0.5%;
   }
   .main-img-section {
     width: 200px;
-    height: 250px;
+    height: 260px;
     background: white;
     box-shadow: 1px 1px 5px gray;
     margin: 5px 15px;

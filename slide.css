@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ width: 100%;  
+}
+.all {
+    width: 98%;
+    margin: 10px 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.line {
+    border: 0.3px solid lightgray;
+    width: 98%;
+    margin: 5px 1%;
+}
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 5px;
+   margin: 10px 0;
+    width: 35%;
+}
+.left-head {
+    width: 100%;
+    margin: 10px 0;
+    background: lightblue;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.contain-2 {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ border: 1px solid gray;
+ padding: 5px;
+width: 60%;
+margin: 10px 0;
+}
+.cover {
+    width: 98%;
+    margin: 20px 1%;
+    background: lightgray;
+
+}
+.cover h3 {
+    padding: 5px 20px;
+}
+#cover1 {
+/* width: 700px;
+height: 540px; */
+width: 100%;
+height: 200px;
+overflow: hidden;  
+}
+.cover1 {
+ display: flex;
+ transition: transform 0.5s linear;   
+ transform: translateX(0); 
+ width: 100%;
+ height: 200px;
+ /* border: 0.2px solid lightgray;      */
+}
+
+#buttons {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ width: 100%;
+ margin-top: 10px;   
+}
+#btn1, #btn2 {
+ background: white;
+ border: none;
+ font-size: 25px;
+ border: 0.2px solid gray;
+ border-radius: 10px;
+ width: 40%;
+ color: blue;
+ cursor: pointer;   
+}
+#btn1:hover {
+    color: red;
+}
+#btn2:hover {
+    color: red;
+}
+.img1, .img {
+ width: 99%;
+ height: 180px;
+ object-fit: center;
+margin: 10px 0.5%;
+/* border: 0.5px solid lightgray; */
+}
+
+
+
+.outter-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   border-bottom: 0.3px solid lightgray;
+    margin: 10px 0;
+  }
+.trend-head {
+    width: 40%;
+    margin: 5px 30%;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    
+}
+  #container {
+    width: 100%;
+    margin: 10px 0px;
+    overflow: hidden;
+    background: lightgray;
+    height: 280px;
+    border-bottom: 0.3px solid lightgray;
+    /* position: relative; */
+  }
+  .main-section {
+    display: flex;
+    margin: 10px 0px 3px 10px;
+    transition: transform 0.6s linear;
+    transform: translateX(0);
+    height: 280px;
+    width: 100%;
+  }
+  .check {
+    background: white;
+    width: 400px;
+    padding: 5px;
+    color: blue;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 5px gray;
+  }
+  .main-img-section {
+    width: 200px;
+    height: 250px;
+    background: white;
+    box-shadow: 1px 1px 5px gray;
+    margin: 5px 15px;
+  }
+  .img-slides {
+    width: 180px;
+    height: 180px;
+    padding: 4px;
+  }
+  .text-para {
+    border-top: 0.3px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px;
+    height: 70px;
+    width: 100%;
+  }
+  .text-head {
+    width: 100%;
+  }
+  .text-btn {
+    width: 100%;
+    border: 0.4px solid gray;
+    padding: 3px;
+    text-align: center; 
+    cursor: pointer;
+    height: 25px;
+    font-size: 14px;
+    margin: 5px 0px;
+    background: white;
+  }
+  .slide-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 15px 5px 5px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .slide-ForwardBtn, .slide-BackwardBtn {
+    border: none;
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+    background: whitesmoke;
+    box-shadow: 0px 0px 5px gray;
+  }
+  .spin {
+      opacity: 0;
+      animation: spin 0.5s linear infinite;
+  }
+  @keyframes spin {
+      from {opacity: 0;}
+      to {opacity: 1;}
+  }
+  .details-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+   
+  }
+
+  #post1, #post2, #post3, #post4, #post5, #post6 {
+    background: white;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 98%;
+    height: 250px;
+    box-shadow: 1px 1px 5px black;
+    margin: 20px 1%;
+    position: absolute;
+    left: 0px;
+    top: 445px;
+    z-index: 10;
+  }
+ 
+  .img-details  {
+    width: 30%;
+    height: 250px;
+    object-fit: center;
+  }
+  .details-text-part {
+    width: 55%;
+  }
+  .details-cancel {
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    color: red;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 2px;
+  }
+  .side {
+    width: 20%;
+    position: fixed;
+    right: 0;
+    height: 100%;
+    background: white;
+    z-index: 10;
+    border-left: 0.3px solid lightgray;
+  }
+  .side-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 100%;
+    height: 60px;
+  
+  }
+  .ul-side-part {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 20px;
+  }
+  .li-side {
+  font-size: 25px;
+  padding-left: 20px;
+  padding: 10px;
+  }
+  .li-side:hover {
+    background: lightgray;
+    cursor: pointer;
+  }
+
+
+  @media only screen and (min-width: 600px){
+   #cover1 {
+     /* height: 500px;
+     overflow: hidden;   */
+     width: 100%;
+     height: 400px;
+     overflow: hidden;
+   } 
+   .cover-1 {
+     height: 400px;
+   }
+   #btn1, #btn2 {
+     font-size: 40px;
+   }
+   .img1 {
+    width: 99%;
+    height: 350px;
+    object-fit: center;
+   margin: 10px 0.5% 0px 0.5%;
+     /* margin-top: 60px;
+     height: 440px;*/
+     border: 0.5px solid lightgray;
+   }
+   .img {
+    width: 99%;
+    height: 350px;
+    object-fit: center;
+   margin: 10px 0.5%;
+   border: 0.5px solid lightgray;
+  }
+   .img-slides {
+     width: 500px;
+     height: 270px;
+     object-position: center;
+   }
+   .text-para {
+     height: 90px;
+   }
+   .text-head {
+     font-size: 20px;
+   }
+   .main-img-section {
+     width: 600px;
+     height: 370px;
+     margin: 0 25px;
+   }
+   #container {
+     height: 400px;
+   }
+.main-section {
+  height: 400px;
+}
+.slide-ForwardBtn {
+  width: 15%;
+}
+#post1, #post2, #post3, #post4, #post5, #post6 {
+  height: 300px;
+  top: 750px;
+}
+.img-details {
+  height: 300px;
+}
+.trend-head {
+  width: 30%;
+  padding: 5px;
+  margin: 20px 35%;
+  font-size: 23px;
+}
+
+  }
